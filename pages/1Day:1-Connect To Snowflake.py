@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("Hi i am stupid")
+st.title("Day:1-Connect To Snowflake")
 # Auto-detect environment and connect
 try:
     from snowflake.snowpark.context import get_active_session
