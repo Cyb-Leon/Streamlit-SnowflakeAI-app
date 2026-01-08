@@ -10,14 +10,16 @@ with col1:
     st.badge("Mortal", color="green")
     st.text("Day:1-Connect To Snowflake")
     st.text("Day:2-Run LLM (Cortex AI ) In Snowflake ")
-    st.text("Day:5-Post Generator App")
+    st.text("Day:6-Status UI for Long-Running Task")
 
 col2.write("Intermedate levels")
 
 with col2:
     st.badge("Hero", color="yellow")
-    st.text("Day:4-Caching the App")
     st.text("Day:3-Write streams")
+    st.text("Day:4-Caching the App")
+    st.text("Day:5-Post Generator App")
 col3.write("Advanced levels")
 with col3:
     st.badge("Spartan", color="red")
+    st.text("Day:7-Theming and Layout")
