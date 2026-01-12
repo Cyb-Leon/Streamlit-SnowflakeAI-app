@@ -26,3 +26,4 @@ with col3:
     st.text("Day:7- Theming and Layout")
     st.text("Day:10- StreamlitxSnowflake Chatbot")
     st.text("Day:9- Understanding Session State")
+    st.text("Day:11- Displaying Chat History")
