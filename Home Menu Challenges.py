@@ -1,5 +1,5 @@
 import streamlit as st
-st.text("The #30daysofAI in SiS (In Streamlit in Snowflake)")
+st.text("The #30daysofAI SiS (In Streamlit in Snowflake)")
 st.title("#30daysofAI in SiS (In Streamlit in Snowflake)")
 st.subheader("The coding fish - A lof of IT Stuff")
 
@@ -29,11 +29,3 @@ with col3:
     st.text("Day:11- Displaying Chat History")
 
 Day 11: #30DayOfAI Displaying Chat History.
-
-
-
-If you are or aspire to be a data scientist/analyst, I'd highly advise you to take on this challenge - the tools are available for you.
-
-
-
-head to Snowflake Developers or Streamlit to get more details about this. Get fontend up and running, Snowflake platform setup for data to play with. 

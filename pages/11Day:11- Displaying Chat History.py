@@ -43,7 +43,7 @@ with st.sidebar:
     
     if st.button("Clear History"):
         st.session_state.messages = [
-            {"role": "assistant", "content": "Hello! I'm your AI assistant. How can I help you today?"}
+            {"role": "assistant", "content": "Hello! I'm your AI Browella. How can I help you today?"}
         ]
         st.rerun()
 
