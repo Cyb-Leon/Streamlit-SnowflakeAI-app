@@ -27,7 +27,7 @@ with col3:
     st.page_link("pages/10Day:10- StreamlitxSnowflake Chatbot.py")
     st.page_link("pages/9Day:9- Understanding Session State.py")
     st.page_link("pages/11Day:11- Displaying Chat History.py")
-    st.page_link("pages/12Day: 12- Streaming Responses.py")
+    st.page_link("pages/12Day:12- Streaming Responses.py")
 
 
 st.caption("#30DayOfAI StreamLit x Snowflake.")
