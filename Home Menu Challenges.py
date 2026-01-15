@@ -11,6 +11,7 @@ with col1:
     st.page_link("pages/1Day:1- Connect To Snowflake.py")
     st.page_link("pages/2Day:2- Run LLM (Cortex AI ) In Snowflake.py")
     st.page_link("pages/6Day:6- Status UI for Long-Running Task.py")
+    st.page_link("pages/14Day:14- Adding Avatars and Error Handling.py")
 
 col2.write("Intermedate levels")
 
