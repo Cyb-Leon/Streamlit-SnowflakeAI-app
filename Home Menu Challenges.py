@@ -22,6 +22,7 @@ with col2:
     st.page_link("pages/4Day:4- Caching the App.py")
     st.page_link("pages/5Day:5- Post Generator App.py")
     st.page_link("pages/8Day:8- Meet the Chat Elements.py")
+    st.page_link("pages/15Day:15- Model Comparison Arena.py")
 col3.write("Advanced levels")
 with col3:
     st.badge("Spartan", color="red")
