@@ -13,6 +13,7 @@ with col1:
     st.page_link("pages/6Day:6- Status UI for Long-Running Task.py")
     st.page_link("pages/14Day:14- Adding Avatars and Error Handling.py")
     st.page_link("pages/13Day:13- Adding a System Prompt.py")
+    st.page_link("pages/11Day:11- Displaying Chat History.py")
 
 col2.write("Intermedate levels")
 
@@ -23,14 +24,16 @@ with col2:
     st.page_link("pages/5Day:5- Post Generator App.py")
     st.page_link("pages/8Day:8- Meet the Chat Elements.py")
     st.page_link("pages/15Day:15- Model Comparison Arena.py")
+
 col3.write("Advanced levels")
 with col3:
     st.badge("Spartan", color="red")
     st.page_link("pages/7Day:7- Theming and Layout.py")
     st.page_link("pages/10Day:10- StreamlitxSnowflake Chatbot.py")
     st.page_link("pages/9Day:9- Understanding Session State.py")
-    st.page_link("pages/11Day:11- Displaying Chat History.py")
+
     st.page_link("pages/12Day:12- Streaming Responses.py")
+    st.page_link("pages/16Day:16- Batch Document Text Extractor for RAG.py")
 
 
 st.caption("#30DayOfAI StreamLit x Snowflake.")
