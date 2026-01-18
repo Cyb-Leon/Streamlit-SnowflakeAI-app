@@ -31,9 +31,9 @@ with col3:
     st.page_link("pages/7Day:7- Theming and Layout.py")
     st.page_link("pages/10Day:10- StreamlitxSnowflake Chatbot.py")
     st.page_link("pages/9Day:9- Understanding Session State.py")
-
     st.page_link("pages/12Day:12- Streaming Responses.py")
     st.page_link("pages/16Day:16- Batch Document Text Extractor for RAG.py")
+    st.page_link("pages/17Day:17- Loading and Transforming Customer Reviews for RAG.py")
 
 
 st.caption("#30DayOfAI StreamLit x Snowflake.")
