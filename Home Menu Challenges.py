@@ -24,7 +24,7 @@ with col2:
     st.page_link("pages/Day:5- Post Generator App.py")
     st.page_link("pages/Day:8- Meet the Chat Elements.py")
     st.page_link("pages/Day:15- Model Comparison Arena.py")
-    st.page_link("pages/Day:18 - Generating Embeddings for Customer Reviews.py")
+
 
 col3.write("Advanced levels")
 with col3:
@@ -35,6 +35,8 @@ with col3:
     st.page_link("pages/Day:12- Streaming Responses.py")
     st.page_link("pages/Day:16- Batch Document Text Extractor for RAG.py")
     st.page_link("pages/Day:17- Loading and Transforming Customer Reviews for RAG.py")
+    st.page_link("pages/Day:18 - Generating Embeddings for Customer Reviews.py")
+    st.page_link("pages/Day:19- Creating Cortex Search for Customer Reviews.py")
 
 
 st.caption("#30DayOfAI StreamLit x Snowflake.")
