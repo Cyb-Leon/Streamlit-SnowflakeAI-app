@@ -37,6 +37,7 @@ with col3:
     st.page_link("pages/Day:17- Loading and Transforming Customer Reviews for RAG.py")
     st.page_link("pages/Day:18 - Generating Embeddings for Customer Reviews.py")
     st.page_link("pages/Day:19- Creating Cortex Search for Customer Reviews.py")
+    st.page_link("pages/Day:20- Querying Cortex Search.py")
 
 
 st.caption("#30DayOfAI StreamLit x Snowflake.")
