@@ -25,6 +25,7 @@ with col2:
     st.page_link("pages/Day:8- Meet the Chat Elements.py")
     st.page_link("pages/Day:15- Model Comparison Arena.py")
     st.page_link("pages/Day:21- RAG with Cortex Search.py")
+    st.page_link("pages/Day:22- Chat with Your Documents.py")
 
 col3.write("Advanced levels")
 with col3:
