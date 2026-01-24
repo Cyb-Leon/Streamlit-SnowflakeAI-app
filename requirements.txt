@@ -1,3 +1,5 @@
 streamlit==1.52.0
 snowflake-ml-python==1.21.0
 snowflake-snowpark-python==1.44.0
+trulens-core==2.5.3
+trulens-providers-cortex==2.5.3
