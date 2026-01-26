@@ -1,4 +1,6 @@
 import streamlit as st
+
+st.set_page_config(layout="wide")
 st.text("The #30daysofAI SiS (In Streamlit in Snowflake)")
 st.title("#30daysofAI in SiS (In Streamlit in Snowflake)")
 st.subheader("The coding fish - A lof of IT Stuff")
@@ -41,6 +43,7 @@ with col3:
     st.page_link("pages/19Day 19: Creating Cortex Search for Customer Reviews.py")
     st.page_link("pages/20Day 20: Querying Cortex Search.py")
     st.page_link("pages/23Day 23: LLM Evaluation & AI Observability.py")
+    st.page_link("pages/25Day 25: Voice Interface.py")
 
 
 st.caption("#30DayOfAI StreamLit x Snowflake.")
