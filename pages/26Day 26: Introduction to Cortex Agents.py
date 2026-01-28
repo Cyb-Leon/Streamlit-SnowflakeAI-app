@@ -2,8 +2,8 @@ import streamlit as st
 
 # Connect to Snowflake
 try:
-from snowflake.snowpark.context import get_active_session
-session = get_active_session()
+    from snowflake.snowpark.context import get_active_session
+    session = get_active_session()
 except:
     from snowflake.snowpark import Session
     session = Session.builder.configs(st.secrets["connections"]["snowflake"]).create()
@@ -319,7 +319,8 @@ tables:
                 status.update(label=":material/celebration: Day 27 data ready! (Day 28+ data optional)", state="complete")
                 st.balloons()
     else:
-                status.update(label="Complete Steps 1-3 for Day 27, Steps 4-5 for Day 28+", state="error")
+        with st.status("Verifying setup...", expanded=True) as status:
+            status.update(label="Complete Steps 1-3 for Day 27, Steps 4-5 for Day 28+", state="error")
 
 # Create Agent Tab
 with tab1:
@@ -387,8 +388,8 @@ IMPORTANT CONSTRAINTS:
                 st.session_state.agent_created = True
                 status.update(label=":material/check_circle: Agent Ready!", state="complete")
                 st.balloons()
-            except Exception as e:
-                st.error(f"Error: {str(e)}")
+        except Exception as e:
+            st.error(f"Error: {str(e)}")
             status.update(label="Failed", state="error")
 
 st.divider()
