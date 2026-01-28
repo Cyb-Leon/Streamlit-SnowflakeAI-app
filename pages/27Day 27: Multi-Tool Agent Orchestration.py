@@ -269,13 +269,13 @@ with st.container(border=True):
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("**:material/query_stats: Sales Metrics** (uses SalesAnalyst)")
-        if (q := st.selectbox("", ["Select a question..."] + METRICS_QS, key="m", label_visibility="collapsed")) != "Select a question...":
+        if (q := st.selectbox("Yinile", ["Select a question..."] + METRICS_QS, key="m", label_visibility="collapsed")) != "Select a question...":
             if st.button(":material/send: Ask", key="am", use_container_width=True):
                 st.session_state.pending = q
                 st.rerun()
     with col2:
         st.markdown("**:material/forum: Conversations** (uses ConversationSearch)")
-        if (q := st.selectbox("", ["Select a question..."] + CONVO_QS, key="c", label_visibility="collapsed")) != "Select a question...":
+        if (q := st.selectbox("YiniLe", ["Select a question..."] + CONVO_QS, key="c", label_visibility="collapsed")) != "Select a question...":
             if st.button(":material/send: Ask", key="ac", use_container_width=True):
                 st.session_state.pending = q
                 st.rerun()
