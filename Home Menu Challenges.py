@@ -16,6 +16,10 @@ with col1:
     st.page_link("pages/14Day 14: Adding Avatars and Error Handling.py")
     st.page_link("pages/13Day 13: Adding a System Prompt.py")
     st.page_link("pages/11Day 11: Displaying Chat History.py")
+    st.page_link("pages/10Day 10: StreamlitxSnowflake Chatbot.py")
+    st.page_link("pages/9Day 9: Understanding Session State.py")
+    st.page_link("pages/12Day 12: Streaming Responses.py")
+    st.page_link("pages/7Day 7: Theming and Layout.py")
 
 col2.write("Intermedate levels")
 
@@ -29,15 +33,11 @@ with col2:
     st.page_link("pages/21Day 21: RAG with Cortex Search.py")
     st.page_link("pages/22Day 22: Chat with Your Documents.py")
     st.page_link("pages/24Day 24: Working with Images (Multimodality).py")
-    st.page_link("pages/26Day 26: Introduction to Cortex Agents.py")
+
 
 col3.write("Advanced levels")
 with col3:
     st.badge("Spartan", color="red")
-    st.page_link("pages/7Day 7: Theming and Layout.py")
-    st.page_link("pages/10Day 10: StreamlitxSnowflake Chatbot.py")
-    st.page_link("pages/9Day 9: Understanding Session State.py")
-    st.page_link("pages/12Day 12: Streaming Responses.py")
     st.page_link("pages/16Day 16: Batch Document Text Extractor for RAG.py")
     st.page_link("pages/17Day 17: Loading and Transforming Customer Reviews for RAG.py")
     st.page_link("pages/18Day 18: Generating Embeddings for Customer Reviews.py")
@@ -45,6 +45,9 @@ with col3:
     st.page_link("pages/20Day 20: Querying Cortex Search.py")
     st.page_link("pages/23Day 23: LLM Evaluation & AI Observability.py")
     st.page_link("pages/25Day 25: Voice Interface.py")
+    st.page_link("pages/26Day 26: Introduction to Cortex Agents.py")
+    st.page_link("pages/27Day 27: Multi-Tool Agent Orchestration.py")
+
 
 
 st.caption("#30DayOfAI StreamLit x Snowflake.")
