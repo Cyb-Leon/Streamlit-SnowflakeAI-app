@@ -20,6 +20,7 @@ with col1:
     st.page_link("pages/9Day 9: Understanding Session State.py")
     st.page_link("pages/12Day 12: Streaming Responses.py")
     st.page_link("pages/7Day 7: Theming and Layout.py")
+    st.page_link("pages/28Day 28: Building Apps with AI Assistants using AGENTS.md.py")
 
 col2.write("Intermedate levels")
 
