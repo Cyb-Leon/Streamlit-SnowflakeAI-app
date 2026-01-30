@@ -23,7 +23,8 @@ The #30DaysOfAI is a coding challenge designed to help you get started in buildi
  - Snowflake Community - Connect with others
 
 ## How to run this 
+ - local run create virtual environment python .venv
  - run pip install requirements.txt
- - ensure you are running python >=3.2, <3.12 or <3.13
+ - ensure you are running python >=3.2, <3.12 
  - above is for trulens packages
  
