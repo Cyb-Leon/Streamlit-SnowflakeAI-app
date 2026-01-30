@@ -34,6 +34,7 @@ with col2:
     st.page_link("pages/21Day 21: RAG with Cortex Search.py")
     st.page_link("pages/22Day 22: Chat with Your Documents.py")
     st.page_link("pages/24Day 24: Working with Images (Multimodality).py")
+    st.page_link("pages/29Day 29: LangChain Basics.py")
 
 
 col3.write("Advanced levels")
