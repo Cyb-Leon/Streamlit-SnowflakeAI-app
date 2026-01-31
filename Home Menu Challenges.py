@@ -21,6 +21,7 @@ with col1:
     st.page_link("pages/12Day 12: Streaming Responses.py")
     st.page_link("pages/7Day 7: Theming and Layout.py")
     st.page_link("pages/28Day 28: Building Apps with AI Assistants using AGENTS.md.py")
+    st.page_link("pages/30Day 30: Structured Output with Pydantic.py")
 
 col2.write("Intermedate levels")
 
